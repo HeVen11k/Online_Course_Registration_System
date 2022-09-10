@@ -1,7 +1,7 @@
 
 <?php
-session_start();
-include('includes/config.php');
+session_start();  //start new session
+include('includes/config.php');  
 error_reporting(0);
 if(strlen($_SESSION['login'])==0)
     {   
